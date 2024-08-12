@@ -1,0 +1,43 @@
+/*Media queries: asumo que el viewport que el ejercicio pide es el mínimo en cada caso (>425, >768, >1440)*/
+
+/*Menores a 425px*/
+
+body {
+    background-color: blue;
+}
+
+p {
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width: 426px) {
+    body {
+        background-color: green;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    img {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+    
+    img {
+        width: 50%;
+    }
+}
